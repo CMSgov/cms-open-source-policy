@@ -14,7 +14,7 @@ The CMS Office of the Acquisition and Grants Management (OAGM) has an establishe
 
 ## CMS OSS Pilot Program
 
-As outlined in the requirements of the Federal Source Code Policy, CMS has already identified the Quality Payment Program (QPP) as CMS’ OSS pilot program. The QPP project team has already released a tool for file conversion as OSS during the calendar year 2017. The QPP conversion tool allows XML to JSON file conversion for consumption by the Submissions API.  The project team believes that it will let any provider or entity that creates QPP files to have access to the tool outside of the context of QPP submissions and that can be extended to other file formats.
+As outlined in the requirements of the [Federal Source Code Policy](https://code.gov/#/policy-guide/policy/introduction), CMS has already identified the [Quality Payment Program (QPP)](https://qpp.cms.gov/) as CMS’ OSS pilot program. The QPP project team has already released [a tool for file conversion](https://github.com/CMSgov/qpp-conversion-tool) as OSS during the calendar year 2017. The QPP conversion tool allows XML to JSON file conversion for consumption by the Submissions API.  The project team believes that it will let any provider or entity that creates QPP files to have access to the tool outside of the context of QPP submissions and that can be extended to other file formats.
 
 CMS intends to release the additional OSS as the QPP program matures.
 
@@ -26,31 +26,31 @@ The project team shall utilize an existing public-facing website to convey infor
 
 For every iteration of the code release, the project team must ensure that the software code is adequately peer reviewed and is free of security vulnerabilities that can be exploited by malicious actors. Until the software code is adequately reviewed, it should be either 1) maintained in an internal code repository that replicates the intended public repository or 2) checked by publicly available services providing the same functions on all code check-ins to the public source code repository. The software should also contain automated unit tests, build scripts and should be checked for software vulnerabilities, code quality and code coverage using available standard CMS tools. The code should be built with CMS’s standard continuous integration (CI) server. The project team should include ample documentation with the software code for increased adoption and modification by the community. The documentation should provide the information on project’s mission, philosophy, goal, design, decision-making process, product roadmap and instructions on how to submit issues, feature requests and how to contribute towards a fix or enhancements. The documentation should be accessible to the Open Source community.
 
-The CMS project teams should follow or adopt a decentralized governance model to ensure the success of the OSS as the software matures in the Open Source community. The governance model should define the team constituents, their decision-making authority and their roles to support the project in the open source community. For sustaining the project, the team, at a minimum, should define and staff the roles for active user engagement, product roadmap development, and accepting new contributions via pull-requests. These resources shall be staffed in addition to existing project team members. The project team is expected to take on the additional responsibility of encouraging meaningful engagement in the project by identifying and promoting active contributors to committer status based on the quality and quantity of code contributions and involvement in day-to-day discussions, as is the case in a meritocracy based system.
+The CMS project teams should follow or adopt a decentralized governance model to ensure the success of the OSS as the software matures in the Open Source community. The governance model should define the team constituents, their decision-making authority and their roles to support the project in the open source community. For sustaining the project, the team, at a minimum, should define and staff the [roles](https://www.apache.org/foundation/how-it-works.html#roles) for active user engagement, product roadmap development, and accepting new contributions via pull-requests. These resources shall be staffed in addition to existing project team members. The project team is expected to take on the additional responsibility of encouraging meaningful engagement in the project by identifying and promoting active contributors to committer status based on the quality and quantity of code contributions and involvement in day-to-day discussions, as is the case in a [meritocracy based system](https://www.apache.org/foundation/how-it-works.html#meritocracy).
 
  
 
-CMS' Public OSS Repository
+## CMS' Public OSS Repository
 
 The CMS project teams shall utilize the official CMS GitHub organization account to make their source code available to the open source community and for Government-Wide use. The project teams shall use a consistent naming convention and a prefix for their code repositories that allows for easy identification on GitHub. The project teams shall also provide updates to the CMS’s official enterprise code inventory, update the CMS public website - the OSS landing page and, update the CMS enterprise code repository at Code.gov to encourage discovery and dissemination of the software. 
 
-License
+## License
 
-There is a wide variety of OSS licensing models available, and the CMS project teams are required to research and choose a licensing model that is suitable for their project. Several CMS projects have preferred to dedicate their work in the Public Domain.  The Open Source Initiative maintains a list of licenses that the project team may optionally use. The section Choosing a License at the Civic Commons wiki may also be a useful resource that provides additional help for selection of an appropriate license. The project team should consider the difference between “permissive” and “non-permissive” licenses, warranty/guarantee limitations, attribution, and trademark/IP protections and its impact on the choice of license.
+There is a wide variety of OSS licensing models available, and the CMS project teams are required to research and choose a licensing model that is suitable for their project. Several CMS projects have preferred to dedicate their work in the [Public Domain](https://creativecommons.org/publicdomain/zero/1.0/).  The [Open Source Initiative](https://opensource.org/licenses) maintains a [list of licenses](https://opensource.org/licenses/alphabetical) that the project team may optionally use. The section [Choosing a License](http://wiki.civiccommons.org/Choosing_a_License) at the Civic Commons wiki may also be a useful resource that provides additional help for selection of an appropriate license. The project team should consider the difference between “permissive” and “non-permissive” licenses, warranty/guarantee limitations, attribution, and trademark/IP protections and its impact on the choice of license.
 
 Once an appropriate license is chosen for the project, the full license text should be included in the ‘license’ file of the distribution bundle. Each source code must have a notice at the top to name CMS, or an organization designated explicitly by CMS as the copyright and license holder of the source code and provide a link to the full text of the license.
 
 The project team must perform appropriate due diligence before the publication of their source code, primarily when the project team uses or imports any freely available open source products and libraries to build their software that is released as OSS. The original license of all referenced code and libraries must be included with the distribution of the source, according to the terms of the original license. The CMS Technical Reference Architecture (TRA) supplement “Development and Application Services” provides additional guidelines for the CMS project team that wish to use the OSS libraries and packaged OSS for their internal consumption or development of new and custom software that is not intended for the publication in the OSS community.
 
-Transition and End of Life (EOL) considerations
+## Transition and End of Life (EOL) considerations
 
 A CMS OSS project may be retired due to inactivity, or due to a compelling business need, or the project transitioned to other organizations. When ending support, projects should send a notification to existing end users, informing them of CMS’s decision to terminate support of the OSS.
 
-Acknowledgments
+## Acknowledgments
 
 CMS would like to thank General Services Administration (GSA)’s 18F team, the Consumer Financial Protection Bureau (CFPB), and the Office of Management and Budget (OMB) for their inspirational work in the use of OSS in the Federal Government.
 
-Future changes
+## Future changes
 
 This CMS policy is a living document, and any changes to this policy in the future would be handled via issues and pull requests in the CMS GitHub repository.
 
