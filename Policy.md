@@ -2,7 +2,7 @@
 
 The [Centers for Medicare and Medicaid Services (CMS)](https://www.cms.gov) has been an active supporter of and has utilized the [Open Source Software (OSS)](https://en.wikipedia.org/wiki/Free_and_open-source_software) on several IT projects for its mission-critical programs. Several CMS business units and offices have been actively releasing OSS as part of IT modernization projects. CMS has many active open source communities, such as the BlueButton, [Healthcare.gov](http://healthcare.gov/) StyleGuide, and the MMIS Provider screening module on Github. CMS has embraced the OSS for our development projects and is looking forward to releasing software codes to the open source community to promote its reuse. This policy will help CMS achieve the goals outlined in the [OMB directive](https://code.gov/#/policy-guide/policy/introduction) for Federal agencies.
 
-OSS Consideration & Applicability
+## OSS Consideration & Applicability
 
 This policy assumes that before OSS development, and in accordance with the three-step software solution analysis, the project team has conducted market research and analyzed commercial and other open source alternatives that may meet their business need. This OSS policy applies when the project team ventures into custom code development and chooses the project code as a candidate for OSS.  The project teams must verify if they may release the source code that has been developed using Government funds.
 
