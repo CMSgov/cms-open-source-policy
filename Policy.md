@@ -4,7 +4,7 @@ The [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov) has be
 
 ## OSS Consideration & Applicability
 
-This policy assumes that before OSS development, and in accordance with the [three-step software solution analysis](https://code.gov/#/policy-guide/docs/compliance/procurement), the project team has conducted market research and analyzed commercial and other open source alternatives that may meet their business need. This OSS policy applies when the project team ventures into custom code development and chooses the project code as a candidate for OSS.  The project teams must verify [if they may release](http://dodcio.defense.gov/Open-Source-Software-FAQ/) the source code that has been developed using Government funds.
+This policy applies to the CMS project teams that engage in the development of code for the Open Source community. This policy assumes that before OSS development, and in accordance with the [three-step software solution analysis](https://code.gov/#/policy-guide/docs/compliance/procurement), the project team has conducted market research and analyzed commercial and other open source alternatives that may meet their business need. This OSS policy applies when the project team ventures into custom code development and chooses the project code as a candidate for OSS.  The project teams must verify [if they may release](http://dodcio.defense.gov/Open-Source-Software-FAQ/) the source code that has been developed using Government funds.
 
 ## Government Data Rights
 
@@ -32,7 +32,7 @@ CMS project teams should follow or adopt a decentralized governance model to ens
 
 ## CMS' Public OSS Repository
 
-CMS project teams shall utilize the official CMS GitHub organization account to make their source code available to the open source community and for government-wide use. The project teams shall use a consistent naming convention and a prefix for their code repositories that allows for easy identification on GitHub. The project teams shall also provide updates to the CMS’s official enterprise code inventory, update the CMS public website - the OSS landing page and, update the CMS enterprise code repository at Code.gov to encourage discovery and dissemination of the software. 
+CMS project teams shall utilize the official Public CMS GitHub organization account to make their source code available to the open source community and for government-wide use. The project teams shall use a consistent naming convention and a prefix for their code repositories that allows for easy identification on GitHub. The project teams shall also provide updates to the CMS’s official enterprise code inventory, update the CMS public website - the OSS landing page and, update the CMS enterprise code repository at Code.gov to encourage discovery and dissemination of the software. 
 
 ## License
 
