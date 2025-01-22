@@ -1,17 +1,17 @@
 # Introduction
 
-The [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov) has been an active supporter of and has utilized the [Open Source Software (OSS)](https://www.cms.gov/tra/Application_Development/AD_0210_Open_Source_Overview.htm) on several IT projects for its mission-critical programs. Several CMS business units and offices have been actively releasing OSS as part of IT modernization projects. CMS has many active open source communities, such as our [Developer APIs](https://developer.cms.gov/#apis) like [Bluebutton](https://bluebutton.cms.gov/), our [CMS Design System](https://developer.cms.gov/design-system/), and hundreds of other repos across our [many organizations](https://dsacms.github.io/metrics/organizations/). CMS has embraced Open Source development and is looking forward to releasing software to the community to promote reuse. This policy will help CMS achieve the goals outlined in the [OMB directive M-16-21](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) for Federal agencies.
+The [Centers for Medicare & Medicaid Services (CMS)](https://www.cms.gov) has been an active supporter of and has utilized the [Open Source Software (OSS)](https://www.cms.gov/tra/Application_Development/AD_0200_Open_Source_Introduction.htm) on several IT projects for its mission-critical programs. Several CMS business units and offices have been actively releasing OSS as part of IT modernization projects. CMS has many active open source communities, such as our [Developer APIs](https://developer.cms.gov/#apis) like [Bluebutton](https://bluebutton.cms.gov/), our [CMS Design System](https://developer.cms.gov/design-system/), and hundreds of other repos across our many organizations (https://dsacms.github.io/metrics/organizations/). CMS has embraced Open Source development and is looking forward to releasing software to the community to promote reuse. This policy will help CMS achieve the goals outlined in the [OMB directive M-16-21](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) for Federal agencies.
 
 ## OSS Consideration & Applicability
 
 This policy applies to the CMS project teams that engage in the development of code for the Open Source community. This policy assumes that before OSS development, and in accordance with the [three-step software solution analysis](https://code.gov/agency-compliance/compliance/procurement), the project team has conducted market research and analyzed commercial and other open source alternatives that may meet their business need. This OSS policy applies when the project team ventures into custom code development and chooses the project code as a candidate for OSS.
 
-The project teams must verify [if they may not release](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) the source code that has been developed using Government funds. Applicable exceptions are as follows: 
+The project teams must verify [if they may not release](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf) the source code that has been developed using Government funds. Applicable exceptions are as follows:
 
 > 1. The sharing of the source code is restricted by law or regulation, including—but not limited to—patent or intellectual property law, the Export Asset Regulations, the International Traffic in Arms Regulation, and the Federal laws and regulations governing classified information;
-> 2. The sharing of the source code would create an identifiable risk to the detriment of national security, confidentiality of Government information, or individual privacy; 
-> 3. The sharing of the source code would create an identifiable risk to the stability, security, or integrity of the agency’s systems or personnel; 
-> 4. The sharing of the source code would create an identifiable risk to agency mission, programs, or operations; or 
+> 2. The sharing of the source code would create an identifiable risk to the detriment of national security, confidentiality of Government information, or individual privacy;
+> 3. The sharing of the source code would create an identifiable risk to the stability, security, or integrity of the agency’s systems or personnel;
+> 4. The sharing of the source code would create an identifiable risk to agency mission, programs, or operations; or
 > 5. The CIO believes it is in the national interest to exempt sharing the source code. For excepted software, agencies must provide OMB a brief narrative justification for each exception, with redactions as appropriate.
 
 ## Government Data Rights
@@ -20,7 +20,7 @@ The CMS Office of Acquisition and Grants Management (OAGM) has an established IT
 
 ## CMS OSS Pilot Program
 
-As outlined in the requirements of the [Federal Source Code Policy](https://code.gov/#/policy-guide/policy/introduction), CMS has already identified the [Quality Payment Program (QPP)](https://qpp.cms.gov/) as CMS’ OSS pilot program. The QPP project team has already released [a tool for file conversion](https://github.com/CMSgov/qpp-conversion-tool) as OSS during the calendar year 2017. The QPP conversion tool allows XML to JSON file conversion for consumption by the Submissions API.  The project team believes that it will let any provider or entity that creates QPP files have access to the tool outside of the context of QPP submissions and that can be extended to other file formats.
+As outlined in the requirements of the [Federal Source Code Policy](https://code.gov/#/policy-guide/policy/introduction), CMS has already identified the [Quality Payment Program (QPP)](https://qpp.cms.gov/) as CMS’ OSS pilot program. The QPP project team has already released [a tool for file conversion](https://github.com/CMSgov/qpp-conversion-tool) as OSS during the calendar year 2017. The QPP conversion tool allows XML to JSON file conversion for consumption by the Submissions API. The project team believes that it will let any provider or entity that creates QPP files have access to the tool outside of the context of QPP submissions and that can be extended to other file formats.
 
 CMS intends to release additional OSS as the QPP program matures.
 
@@ -40,10 +40,10 @@ CMS project teams shall utilize official Public CMS GitHub organization accounts
 
 ## License
 
-For CMS projects using OSS, each CMS business owner is responsible for assuring that CMS’s use of the open source is according to license. For a CMS-released OSS project, the CMS business owner is responsible for selecting an appropriate license model. In either case, the TRB is responsible for approval of OSS licenses. 
+For CMS projects using OSS, each CMS business owner is responsible for assuring that CMS’s use of the open source is according to license. For a CMS-released OSS project, the CMS business owner is responsible for selecting an appropriate license model. In either case, the TRB is responsible for approval of OSS licenses.
 Be aware of licensing issues and select a licensing model considering the difference between “permissive” and “non-permissive” licenses, warranty / guarantee limitations, attribution, and trademark / IP protections and its impact on the choice of license.
 
- Our default LICENSE file for projects acknowledges that our work is in the U.S. public domain, and uses [Creative Commons Zero International 1.0 (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) to waive copyright internationally. The [Open Source Initiative maintains a list of licenses](https://opensource.org/licenses?categories=popular-strong-community) that the project team may optionally use. In addition to obtaining TRB approval, the Office of General Counsel must review any proposed open source modification or creation.
+Our default LICENSE file for projects acknowledges that our work is in the U.S. public domain, and uses [Creative Commons Zero International 1.0 (CC0)](https://creativecommons.org/publicdomain/zero/1.0/) to waive copyright internationally. The [Open Source Initiative maintains a list of licenses](https://opensource.org/licenses?categories=popular-strong-community) that the project team may optionally use. In addition to obtaining TRB approval, the Office of General Counsel must review any proposed open source modification or creation.
 
 A useful resource is Open Source Licenses is [tl;dr legal's verified license resource page](https://www.tldrlegal.com/verified#verified-licenses).
 
@@ -58,6 +58,7 @@ A CMS OSS project may be retired due to inactivity, or due to a compelling busin
 The utilization, development, and adoption of OSS at CMS would not be possible with the guidance and support of [The Digital Service at the Centers for Medicare & Medicaid Services](https://cms.gov/digital-service), [The Department of Health and Human Services](https://hhs.gov), and [The United States Digital Service](https://www.usds.gov).
 
 CMS would like to thank the following agencies for their inspirational work in the use of Free/Open Source Software in the Federal Government:
+
 - [18F](https://github.com/18F/open-source-policy/blob/master/policy.md)
 - [Consumer Financial Protection Bureau (CFPB)](https://github.com/cfpb/source-code-policy/blob/gh-pages/cfpb-source-code-policy.md)
 - [Cybersecurity and Infrastructure Security Agency (CISA)](https://github.com/cisagov/development-guide/blob/develop/open-source-policy/policy.md)
@@ -66,6 +67,7 @@ CMS would like to thank the following agencies for their inspirational work in t
 - [Office of Management and Budget (OMB)](https://www.whitehouse.gov/wp-content/uploads/legacy_drupal_files/omb/memoranda/2016/m_16_21.pdf)
 
 Our work continues to be guided by contributions from:
+
 - [CHAOSS OSPO Metrics Working Group](https://chaoss.community)
 - [TODOGroup](https://todogroup.org)
 - [US Digital Response](https://www.usdigitalresponse.org)
